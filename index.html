@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--name=viewport permiete crear páginas web que primero se desarrollan en dispositivos móviles.
+Se le hace saber a la página o al navegador que esto debería funcionar en móviles.
+Las funciones como desplazarse o hacer zoom funcionan en relación a esta etiqueta.
+Las dos tags metas suelen aparecer en la gran mayoría de los sitios-->
+    <title>Startup</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Bootstrap CSS from a CDN. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="container d-flex align-items-center h-100"> <!--d-flex y align es bootstrap flexbox-->
+      <div class="row"> <!--fila--><!--h-100 le dice al contenedor que abarque toda la página (Bootstrap)-->
+        <header class="text-center col-12">
+          <h1 class="text-uppercase"><strong>Creo que estás aquí por algo...me equivoco?</strong></h1>
+<!-- Para ponerlo en mayúscula podría haberlo escrito en el h1 o ponerlo en la hoja de Css.
+Pero se aplicó una forma de Bootstrap para darle uso: class="text-uppercase".
+Si el texto es más corto no queda siempre centrado según el tamaño de la ventana, AVERIGUAR motivo-->
+        </header>
+        <div class="buffer col-12"></div>
+        <section class="text-center col-12">
+          <hr>
+          <a href="https://mailchi.mp/9e037cdd7cc1/practica">
+            <button class="btn btn-primary btn-xl">Averígualo</button>
+          </a>
+        </section>
+<!--Docs/Components/Buttons en la página de Bootstrap para ver los botones y el código.
+btn-xl (botón extra large) no es una categoría de Bootstrap es para identificarlo y añadir cosas en Css-->
+      </div>
+    </div>
+  </body>
+</html>
